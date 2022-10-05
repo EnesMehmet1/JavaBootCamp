@@ -18,7 +18,7 @@ public class StringsDemo {
 		System.out.println(message.lastIndexOf("e"));*/
 		
 		String NewMessage=message.replace(' ','-');
-		System.out.println(NewMessage);x	
+		System.out.println(NewMessage);	
 		System.out.println(message.substring(2,5));
 		
 		for(String kk:message.split(" ")) {
