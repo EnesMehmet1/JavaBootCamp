@@ -6,7 +6,7 @@ public class StringsDemo {
 		String message="Weather is very good today";
 		System.out.println(message);
 		
-		/*System.out.println("Person Number: "+ message.length());
+		System.out.println("Person Number: "+ message.length());
 		System.out.println("5.person: "+message.charAt(4));
 		System.out.println(message.concat(" Yeah!"));
 		System.out.println(message.startsWith("B"));
@@ -15,7 +15,7 @@ public class StringsDemo {
 		message.getChars(0,5,Character,0);
 		System.out.println(Character);
 		System.out.println(message.indexOf("at"));
-		System.out.println(message.lastIndexOf("e"));*/
+		System.out.println(message.lastIndexOf("e"));
 		
 		String NewMessage=message.replace(' ','-');
 		System.out.println(NewMessage);	
